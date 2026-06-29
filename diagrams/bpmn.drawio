@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1800" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+<mxCell id="pool" value="Online Ticketing System" style="swimlane;horizontal=0;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="1500" height="760" as="geometry"/></mxCell>
+<mxCell id="laneCustomer" value="Customer" style="swimlane;horizontal=0;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pool"><mxGeometry x="0" y="0" width="1460" height="253.33333333333334" as="geometry"/></mxCell>
+<mxCell id="laneSystem" value="System" style="swimlane;horizontal=0;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pool"><mxGeometry x="0" y="253.33333333333334" width="1460" height="253.33333333333334" as="geometry"/></mxCell>
+<mxCell id="laneStaff" value="Staff" style="swimlane;horizontal=0;startSize=30;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="pool"><mxGeometry x="0" y="506.6666666666667" width="1460" height="253.33333333333334" as="geometry"/></mxCell>
+<mxCell id="start1" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="laneCustomer"><mxGeometry x="40" y="80" width="50" height="50" as="geometry"/></mxCell>
+<mxCell id="t1" value="Browse event catalog
+and select event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="130" y="70" width="140" height="60" as="geometry"/></mxCell>
+<mxCell id="t2" value="Select ticket type
+(individual / season pass)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="320" y="70" width="140" height="60" as="geometry"/></mxCell>
+<mxCell id="t3" value="Request reservation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="510" y="70" width="140" height="60" as="geometry"/></mxCell>
+<mxCell id="g1" value="Tickets
+available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneSystem"><mxGeometry x="560" y="70" width="70" height="70" as="geometry"/></mxCell>
+<mxCell id="t4" value="Notify customer of
+unavailability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneSystem"><mxGeometry x="560" y="180" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="end1" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="laneSystem"><mxGeometry x="600" y="260" width="40" height="40" as="geometry"/></mxCell>
+<mxCell id="t5" value="Hold tickets
+(temporary reservation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneSystem"><mxGeometry x="700" y="70" width="140" height="60" as="geometry"/></mxCell>
+<mxCell id="timer1" value="Reservation
+expiry timer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="laneSystem"><mxGeometry x="870" y="75" width="50" height="50" as="geometry"/></mxCell>
+<mxCell id="g2" value="Confirmed before
+expiry?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneSystem"><mxGeometry x="950" y="70" width="70" height="70" as="geometry"/></mxCell>
+<mxCell id="t6" value="Release tickets
+to inventory pool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneSystem"><mxGeometry x="950" y="180" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="t7" value="Receive expiration
+notification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="950" y="70" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="end2" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="laneSystem"><mxGeometry x="1010" y="260" width="40" height="40" as="geometry"/></mxCell>
+<mxCell id="t8" value="Submit payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="700" y="70" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="t9" value="Process payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneSystem"><mxGeometry x="1080" y="70" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="g3" value="Payment
+successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneSystem"><mxGeometry x="1270" y="70" width="70" height="70" as="geometry"/></mxCell>
+<mxCell id="t10" value="Handle exception /
+process refund" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneStaff"><mxGeometry x="1260" y="70" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="t11" value="Receive payment
+failure notice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="1270" y="70" width="150" height="60" as="geometry"/></mxCell>
+<mxCell id="end3" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="laneStaff"><mxGeometry x="1330" y="160" width="40" height="40" as="geometry"/></mxCell>
+<mxCell id="t12" value="Issue ticket and
+record transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneSystem"><mxGeometry x="1270" y="180" width="160" height="60" as="geometry"/></mxCell>
+<mxCell id="t13" value="Receive purchase
+confirmation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="laneCustomer"><mxGeometry x="1270" y="180" width="160" height="60" as="geometry"/></mxCell>
+<mxCell id="end4" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="laneCustomer"><mxGeometry x="1450" y="180" width="40" height="40" as="geometry"/></mxCell>
+<mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="start1" target="t1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t1" target="t2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t2" target="t3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t3" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g1" target="t5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g1" target="t4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t4" target="end1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t5" target="timer1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="timer1" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e10" value="Yes, within window" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g2" target="t8"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e11" value="No, expired" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g2" target="t6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t6" target="t7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t7" target="end2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t8" target="t9"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t9" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e16" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g3" target="t12"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e17" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="g3" target="t11"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t11" target="t10"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t10" target="end3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t12" target="t13"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="t13" target="end4"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>

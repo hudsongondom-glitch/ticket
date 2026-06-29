@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1800" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+<mxCell id="sys" value="Online Ticketing System" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="260" y="40" width="1080" height="820" as="geometry"/></mxCell>
+<mxCell id="customer" value="Customer" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="160" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="guest" value="Guest" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="380" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="staff" value="Staff" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="1400" y="160" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="admin" value="Administrator" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="1400" y="420" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="timer" value="Reservation Timer" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="1400" y="680" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="uc1" value="Register Account" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="70" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc2" value="Log In" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="150" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc3" value="Search / Browse Events" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="230" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc4" value="Reserve / Purchase
+Tickets" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="320" y="310" width="200" height="70" as="geometry"/></mxCell>
+<mxCell id="uc5" value="Subscribe to
+Season Pass" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="320" y="400" width="200" height="70" as="geometry"/></mxCell>
+<mxCell id="uc6" value="View Reservation Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="490" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc7" value="Cancel Reservation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="570" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc8" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="620" y="330" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc9" value="Select Seating
+Category" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="620" y="410" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc10" value="Receive Notification" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="620" y="570" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc18" value="Apply Penalty for
+No-show / Late Cancellation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="620" y="650" width="200" height="70" as="geometry"/></mxCell>
+<mxCell id="uc11" value="Add New Event" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="900" y="90" width="200" height="60" as="geometry"/></mxCell>
+<mxCell id="uc12" value="Add Ticket Type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="900" y="170" width="200" height="60" as="geometry"/></mxCell>
+<mxCell id="uc13" value="Manage Event Catalog" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="900" y="250" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc14" value="Process Refund" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="900" y="330" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc15" value="Handle Customer Support" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="900" y="410" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc16" value="Manage Staff Accounts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1140" y="500" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="uc17" value="Configure System
+Parameters" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1140" y="580" width="200" height="60" as="geometry"/></mxCell>
+<mxCell id="uc19" value="Expire Reservation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="900" y="650" width="180" height="60" as="geometry"/></mxCell>
+<mxCell id="a1" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a2" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a3" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a4" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a5" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a6" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="customer" target="uc7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a7" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="guest" target="uc1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a8" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="guest" target="uc3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a9" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="staff" target="uc11"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a10" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="staff" target="uc12"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a11" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="staff" target="uc13"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a12" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="staff" target="uc14"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a13" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="staff" target="uc15"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a14" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="admin" target="uc16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a15" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="admin" target="uc17"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a16" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="admin" target="uc18"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a17" value="" style="endArrow=block;endFill=1;html=1;" edge="1" parent="1" source="timer" target="uc19"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i1" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc4" target="uc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i2" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc5" target="uc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i3" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc4" target="uc8"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i4" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc5" target="uc8"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i5" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc4" target="uc9"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i6" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc11" target="uc12"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i7" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc19" target="uc10"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i8" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc7" target="uc10"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="x1" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc18" target="uc7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="x2" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="uc10" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
